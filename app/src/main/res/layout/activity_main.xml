@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    tools:context="com.example.codetribe.copy.MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/animals"
+        android:id="@+id/Animals"
+        android:textSize="25sp"
+        android:textColor="#0f0"
+        android:textStyle="bold"
+        android:text="Animals"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+    <ImageView
+        android:layout_width="match_parent"
+        android:id="@+id/Shapes"
+        android:src="@drawable/colours"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:textColor="#0f0"
+        android:textStyle="bold"
+        android:text="colours"
+        android:layout_below="@+id/Animals"
+        android:layout_alignLeft="@+id/Animals"
+        android:layout_alignStart="@+id/Animals"
+        android:layout_marginTop="14dp" />
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/months"
+        android:id="@+id/Months"
+        android:textSize="25sp"
+        android:textColor="#0f0"
+        android:textStyle="bold"
+        android:text="Months"
+        android:layout_below="@+id/Shapes"
+        android:layout_alignLeft="@+id/Shapes"
+        android:layout_alignStart="@+id/Shapes" />
+    <ImageView
+        android:layout_width="match_parent"
+        android:id="@+id/Fruits"
+        android:src="@drawable/fruits"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:textColor="#0f0"
+        android:textStyle="bold"
+        android:text="Fruits"
+        android:layout_below="@+id/Months"
+        android:layout_alignLeft="@+id/Months"
+        android:layout_alignStart="@+id/Months"
+        android:layout_marginTop="38dp" />
+
+
+</LinearLayout>
